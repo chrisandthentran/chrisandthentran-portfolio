@@ -1,0 +1,15 @@
+@font-face {
+  font-family: Saira;
+  src: url("assets/fonts/Saira-ExtraLight.ttf");
+}
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Baloo Tammudu 2", sans-serif;
+  --font-saira: Saira, "sans-serif";
+}
+
+@utility container {
+  margin-inline: auto;
+  padding-inline: 2rem;
+}
