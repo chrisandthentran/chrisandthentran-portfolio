@@ -1,13 +1,10 @@
-/* header{
-    display: block;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    border: none;
-    background-color: rgb(222, 201, 255);
+header {
+    height: 3rem;
+    /* background-color: rgb(222, 201, 255); */
 
 }
-body{
+
+/* body{
     margin: 10px;
 }
 
