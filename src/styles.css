@@ -1,7 +1,12 @@
 header {
-    height: 3rem;
-    /* background-color: rgb(222, 201, 255); */
-
+  height: 3rem;
+  /* background-color: rgb(222, 201, 255); */
+}
+.header-elements {
+  margin: 10px;
+}
+.header-links {
+  font-size: 24px;
 }
 
 /* body{
