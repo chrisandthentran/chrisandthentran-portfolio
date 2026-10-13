@@ -19,90 +19,99 @@
     />
   </head>
 
-  <header>
-    <header
-      class="container shadow-xl fixed top-0 min-w-dvw backdrop-blur-sm bg-blend-multiply rounded-b-lg"
+  <body>
+    <div
+      class="fixed inset-0 bg-radial-[at_50%_75%] from-sky-100 via-blue-200 to-indigo-300 to-90%"
     >
-      <div class="header-elements">
-        <nav class="header-links">
-          <div class="relative flex overflow-x-clip">
-            <span class="">chris tran</span>
-            <div class="hidden md:contents gap-x-8px">
-              <a href="#about">about</a>
-              <a href="#experiences">experiences</a>
-              <a href="#projects">projects</a>
-            </div>
+      <header>
+        <header
+          class="flex fixed inset-x-0 min-w-dvw gap-4 px-4 w-full items-center shadow-xl backdrop-blur-sm bg-blend-multiply bg-surface/40 rounded-b-lg"
+        >
+          <div class="header-elements">
+            <nav class="header-links">
+              <div class="relative flex overflow-x-clip">
+                <span class="text-blue-950">chris tran</span>
+                <div class="hidden md:contents gap-x-8px">
+                  <a href="#about">about</a>
+                  <a href="#experiences">experiences</a>
+                  <a href="#projects">projects</a>
+                </div>
+              </div>
+            </nav>
           </div>
-        </nav>
+        </header>
+      </header>
+
+      <div
+        class="mx-auto flex max-w-sm items-center gap-x-4 rounded-xl bg-white p-6 shadow-lg outline outline-black/5 dark:bg-slate-800 dark:shadow-none dark:-outline-offset-1 dark:outline-white/10"
+      >
+        <img
+          class="size-12 shrink-0"
+          src="/imgs/githubcat.svg"
+          alt="ChitChat Logo"
+        />
+        <div>
+          <div class="text-xl font-medium text-black dark:text-white">
+            ChitChat
+          </div>
+          <p class="text-gray-500 dark:text-gray-400">
+            You have a new message!
+          </p>
+        </div>
       </div>
-    </header>
-  </header>
 
-  <div
-    class="mx-auto flex max-w-sm items-center gap-x-4 rounded-xl bg-white p-6 shadow-lg outline outline-black/5 dark:bg-slate-800 dark:shadow-none dark:-outline-offset-1 dark:outline-white/10"
-  >
-    <img
-      class="size-12 shrink-0"
-      src="/imgs/githubcat.svg"
-      alt="ChitChat Logo"
-    />
-    <div>
-      <div class="text-xl font-medium text-black dark:text-white">ChitChat</div>
-      <p class="text-gray-500 dark:text-gray-400">You have a new message!</p>
-    </div>
-  </div>
+      <h1 class="text-3xl font-bold underline">Hello world!</h1>
+      <div class="BusinessCard">
+        <h1>hi! i'm chris.</h1>
 
-  <body
-    class="bg-radial-[at_50%_75%] from-sky-100 via-blue-200 to-indigo-300 to-90%"
-  >
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
-    <div class="BusinessCard">
-      <h1>hi! i'm chris.</h1>
-
-      <p>recent graduate in software engineering</p>
-      <p>
-        &#128206;
-        <a href="mailto:chrisandthentran@something.com"
-          >chrisandthentran@something.com</a
-        >&#128231;
-      </p>
-      <div>
-        <a href="https://github.com/chrisandthentran" target="_blank"
+        <p>recent graduate in software engineering</p>
+        <p>
+          &#128206;
+          <a href="mailto:chrisandthentran@hotmail.com"
+            >chrisandthentran@hotmail.com</a
+          >&#128231;
+        </p>
+        <div>
+          <a href="https://github.com/chrisandthentran" target="_blank"
+            ><img
+              class=""
+              src="../imgs/githubcat.png"
+              alt="github link to chrisandthentran"
+          /></a>
+        </div>
+        <a href="https://www.linkedin.com/in/christran01/" target="_blank"
           ><img
-            src="../imgs/githubcat.png"
-            alt="github link to chrisandthentran"
+            class="size-12 shrink-0"
+            src="../imgs/linkedinlogo.png"
+            alt="linkedin link to christran01 "
         /></a>
+        <!-- flipped card side -->
+        <div>
+          <h2>about</h2>
+          <p>Hello! I'm Chris.</p>
+          <p>
+            I'm passionate about contributing to projects that... Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Nemo at, non animi
+            recusandae porro quia natus dolor perferendis similique nisi.
+          </p>
+          <!-- definitely need to actually write this^ -->
+          <h2>education</h2>
+          <p>Bachelor of Science in Software Engineering</p>
+          <h2>other interests</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo at,
+            non animi recusandae porro quia natus dolor perferendis similique
+            nisi.
+          </p>
+          <!-- can't decide if i want to bullet this list or write a paragraph -->
+        </div>
+        <!-- end of flipped card side -->
       </div>
-      <a href="https://www.linkedin.com/in/christran01/" target="_blank"
-        ><img
-          src="../imgs/linkedinlogo.png"
-          alt="linkedin link to christran01 "
-      /></a>
-      <!-- flipped card side -->
-      <div>
-        <h2>about</h2>
-        <p>Hello! I'm Chris.</p>
-        <p>
-          I'm passionate about contributing to projects that... Lorem ipsum
-          dolor sit amet consectetur adipisicing elit. Nemo at, non animi
-          recusandae porro quia natus dolor perferendis similique nisi.
-        </p>
-        <!-- definitely need to actually write this^ -->
-        <h2>education</h2>
-        <p>Bachelor of Science in Software Engineering</p>
-        <h2>other interests</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo at, non
-          animi recusandae porro quia natus dolor perferendis similique nisi.
-        </p>
-        <!-- can't decide if i want to bullet this list or write a paragraph -->
-      </div>
-      <!-- end of flipped card side -->
+      <div class="Work Experience"></div>
+      <div class="Projects"></div>
+      <footer>
+        <p>thanks for visiting! cheerio!</p>
+      </footer>
     </div>
-    <div class="Work Experience"></div>
-    <div class="Projects"></div>
-    <footer>
-      <p>thanks for visiting! cheerio!</p>
-    </footer>
   </body>
 </html>
