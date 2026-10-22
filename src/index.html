@@ -1,5 +1,8 @@
 <!-- div#mow for id-->
 <!-- div.apples for class -->
+<!-- bg-radial-[at_50%_75%] from-sky-100 via-blue-200 to-indigo-300 to-90% -->
+<!-- flex-row place-items-center h-full min-h-screen  -->
+<!-- shadow-xl backdrop-blur-md rounded-b-lg -->
 <!doctype html>
 <html lang="en">
   <head>
@@ -19,17 +22,22 @@
       rel="stylesheet"
     />
   </head>
-  <body
-    class="flex-row place-items-center h-full min-h-screen bg-radial-[at_50%_75%] from-sky-100 via-blue-200 to-indigo-300 to-90%"
-  >
-    <header
-      class="flex fixed gap-4 px-4 h-14 w-full shadow-xl backdrop-blur-md rounded-b-lg"
-    >
-      <h1 class="text-blue-950">chris tran</h1>
+  <body class="flex min-h-svh flex-col">
+    <header class="flex-1 fixed items-center sm:flex-row inset-x-0 top-0">
+      <div
+        class="relative flex w-full items-baseline justify-between border-b px-5 sm:py-4"
+      >
+        <span class="hover:underline text-primary cursor-pointer text-lg"
+          >chrisandthentran.dev</span
+        >
+        <nav class="flex">
+          <div>
+            <a href="">about</a>
+            <a href="">experiences</a>
+            <a href="">projects</a>
+          </div>
+        </nav>
+      </div>
     </header>
-
-    <footer>
-      <p class="text-4xl">thanks for visiting! cheerio!</p>
-    </footer>
   </body>
 </html>
