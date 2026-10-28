@@ -1,20 +1,3 @@
-/* header {
-  height: 3rem;
-  background-color: rgb(222, 201, 255);
+.invisible-scrollbar::-webkit-scrollbar {
+  display: none;
 }
-.header-elements {
-  margin: 10px;
-}
-.header-links {
-  font-size: 24px;
-} 
-
-/* body{
-    margin: 10px;
-}
-
-
-socials{
-    width: "200";
-    height: "200";
-} */
