@@ -1,20 +1,6 @@
-/* header {
-  height: 3rem;
-  background-color: rgb(222, 201, 255);
+/* .background{  
+  flex-direction: column;
+  min-height: 100svh;
 }
-.header-elements {
-  margin: 10px;
-}
-.header-links {
-  font-size: 24px;
-} 
-
-/* body{
-    margin: 10px;
-}
-
-
-socials{
-    width: "200";
-    height: "200";
-} */
+  bg-conic-[at_top_right] from-[#e6e0ff] via-[#c4fff3] to-[#a46fca]
+ */
